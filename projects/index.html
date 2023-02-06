@@ -3,7 +3,8 @@
 
 <head>
     <title>Projects by Mastercoder1323</title>
-    <link rel="stylesheet" href="https://mastercoder1323.github.io/Portfolio/code/css/light.css">
+    <link rel="stylesheet" href="/css/light.css">
+    <link rel="stylesheet" href="slideshow.css">
 </head>
 
 <body>
@@ -18,15 +19,31 @@
     </section>
     <section id="games">
         <h1>Games</h1>
-        <iframe width="440" height="757" style="border: 0px;" src="https://studio.code.org/projects/gamelab/VoXl2PqNfhw0-69iUdeNGrx-seHP2q-07dJ46MfXfwk/embed?nosource"></iframe>
-        <br><br>
-        <iframe width="440" height="757" style="border: 0px;" src="https://studio.code.org/projects/gamelab/drxPKkfTf3H4U47NW2R40O7ZxLIJwsIl6Mk5g2UpL0R/embed?nosource"></iframe>
+        <div id="myCarousel" class="carousel slide">
+            <center>
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <a href="https://studio.code.org/projects/gamelab/Sdt_OgR8VajkwZ9t45UeVtzMLGiyqhNFJexB9eCe480" target="_blank"> <img src="game1.png"> </a>
+                        <p>Car Racing</p>
+                    </div>
+                    <div class="item">
+                        <a href="https://studio.code.org/projects/gamelab/N25kriFEAiBTZwfbYpDjc_qryNjSBhYW-3fOuYRt_SI" target="_blank"> <img src="game2.png"> </a>
+                        <p>Be in space</p>
+                    </div>
+                </div>
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a>
+            </center>
+
+
     </section>
     <section>
         <h1>MIT App Inventor</h1>
         <h3>Click to download</h3>
         <ul>
-            <li><a href="/MIT/Login_Sign_Up.aia" download="loginSignupWithFIREBASEDATABASE_V1.0.aia">Login and Signup Template Using Firebase Database or FD</a></li>
+            <li><a href="/projects/MIT/Login__Sign_Up.aia" download>Login and Signup Template Using Firebase Database or FD</a></li>
         </ul>
     </section>
     <section id="mini-messages" display="none">
@@ -35,6 +52,7 @@
     <section id="chatbots">
         <h1>Chatbots</h1>
     </section>
+    <script src="slideshow.js"></script>
 </body>
 
 </html>
