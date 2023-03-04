@@ -14,6 +14,10 @@
     float: right;
 }
 
+.movie_head span {
+    float: left;
+}
+
 .movie_text span {
     color: magenta;
 }
