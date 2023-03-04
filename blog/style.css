@@ -2,3 +2,18 @@
 #contact iframe {
     width: 100%;
 }
+
+.movie-section {
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.movie-section i {
+    float: right;
+}
+
+.movie-text span {
+    color: magenta;
+}
